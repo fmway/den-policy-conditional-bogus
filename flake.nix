@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz";
     import-tree.url = "github:vic/import-tree";
-    den.url = "github:denful/den/main";
+    den.url = "github:denful/den/fix/deferred-guard-scope";
 
     flake-parts = {
       url = "github:hercules-ci/flake-parts";
